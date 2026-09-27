@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node -r dotenv/config ./bin/www",
+    "start": "node -r dotenv/config server.js",
     "dev": "nodemon r dotenv/config./bin/www --inspect"
   },
   "dependencies": {
